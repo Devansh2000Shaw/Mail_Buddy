@@ -1,0 +1,110 @@
+body {
+    /* background-color: #042331; */
+    background-color: black;
+  }
+  #conclave-logo{
+    padding-top: 14px;
+    padding-left: 14px;
+  }
+
+  Form {
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -170px;
+    color: white;
+    height: 320px;
+    width: 290px;
+    background-color: rgb(29, 28, 28);
+    list-style: none;
+    text-decoration: none;
+  }
+
+  p.login {
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: none;
+  }
+
+  input[type=text] {
+    color: white;
+    text-align: center;
+    border: 1px solid #399BFF;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: black
+  }
+  input[type=text]:hover {
+    border-color: #EE71F9;
+  }
+
+  input[type=email] {
+    color: white;
+    text-align: center;
+    border: 1px solid #399BFF;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: black
+  }
+  input[type=email]:hover {
+    border-color: #EE71F9;
+  }
+
+  input[type=password] {
+    color: white;
+    text-align: center;
+    border: 1px solid #399BFF;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: black
+  }
+
+  input[type=password]:hover {
+    border-color: #EE71F9;
+  }
+
+  #submit {
+    /* color: white;
+    border: 1px solid;
+    border-image: linear-gradient(to right,#399BFF,#EE71F9);
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 15px;
+    text-decoration: none;
+    list-style-type: none;
+    background-image: linear-gradient(to right,#399BFF,#EE71F9); */
+        width:200px;
+        height:35px;
+        color:#fff;
+        background-image: linear-gradient(to right,#399BFF,#EE71F9);
+        border-radius:30px;
+        padding: 8px 30px;
+        transition:all ease-in-out 0.3s;
+  }
+
+  #submit:hover
+  {
+    color: white;
+    background: black;
+    box-shadow: 0 0 20px #EE71F9, 0 0 30px #399BFF, 0 0 60px #EE71F9;
+  }
